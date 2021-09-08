@@ -11,9 +11,9 @@
 body {
   background: #464646;
   color: #e4e4e4;
-  font-family: 'Poppins', helvetica;
-  font-size: 15px;
-  font-weight: 300;
+  font-family: 'Lato';
+  font-size: 96px;
+  font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.02em;
   overflow-x: hidden;
@@ -191,14 +191,13 @@ p {
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: 36px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: "Playfair Display", sans-serif;
-  font-style: italic;
+  font-family: "Lato";
 }
 
 #header .logo a {
@@ -242,8 +241,8 @@ p {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-family: "Lato";
+  font-size: 20px;
   font-weight: 500;
   color: #7e7d7d;
   white-space: nowrap;
@@ -442,8 +441,8 @@ p {
 }
 
 .hero-content h1 {
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 44px;
+  font-weight: 900;
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
@@ -454,7 +453,6 @@ p {
   letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
-  text-transform: capitalize;
   color: #fff;
   font-weight: 500;
 }
@@ -549,13 +547,14 @@ p {
   /* margin-top: -60px; */
   /* margin-left: 40px; */
   height: 400px;
-  -o-object-fit: cover;
-  object-fit: cover;
+  /* -o-object-fit: cover; */
+  /* object-fit: cover; */
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
+  font-family: 'Lato';
+  font-size: 36px;
+  line-height: 36px;
   text-align: left;
 }
 
